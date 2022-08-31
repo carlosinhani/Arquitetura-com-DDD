@@ -26,21 +26,39 @@ namespace HelloWorld
         //     Console.ReadLine();
 
         // }
-        {
+        /*{
             // + Adição
             // - Substração
             // * Multiplicação
             // / Divisão
             // % Resto da Divisão
 
-            int val1, val2, total;
+            double val1, val2, total;
             val1 = 30;
             val2 = 55;
 
             total = val1 + val2;
 
+            // total++ incremeto o valor adicinando mais 1  
+            // total-- decremeto o valor subtraindo menos 1
+
             Console.WriteLine("Total é; {0}", total);
             Console.ReadLine();
+        }*/
+        {
+
+            /*Operadores lógicos.
+              AND = E   --> &&
+              OR  = OU  --> ||
+              NOT = NÂO --> !
+            */
+
+            bool teste1 = true;
+            bool teste2 = false;
+
+            Console.WriteLine(!teste1);
+            Console.WriteLine(!teste2);
+
         }
     }
 }
