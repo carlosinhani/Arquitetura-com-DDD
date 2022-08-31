@@ -6,25 +6,41 @@ namespace HelloWorld
     {
         static void Main(string[] args)
 
+        // {
+        //     int variavelTeste;
+        //     variavelTeste =123;
+
+        //     bool VarivelBoleana = false;
+
+        //     if (VarivelBoleana == false)
+        //     variavelTeste = 765;
+
+        //     var TesteInteger = 111;
+        //     var TesteBool = true;
+        //     var TesteString = "Aula";
+
+        //     Console.WriteLine("O valor da Variável é {0}", variavelTeste);
+        //     Console.WriteLine("O valor da Variável é {0}", TesteInteger);
+        //     Console.WriteLine("O valor da Variável é {0}", TesteBool);
+        //     Console.WriteLine("O valor da Variável é {0}", TesteString);
+        //     Console.ReadLine();
+
+        // }
         {
-            int variavelTeste;
-            variavelTeste =123;
+            // + Adição
+            // - Substração
+            // * Multiplicação
+            // / Divisão
+            // % Resto da Divisão
 
-            bool VarivelBoleana = false;
+            int val1, val2, total;
+            val1 = 30;
+            val2 = 55;
 
-            if (VarivelBoleana == false)
-            variavelTeste = 765;
+            total = val1 + val2;
 
-            var TesteInteger = 111;
-            var TesteBool = true;
-            var TesteString = "Aula";
-
-            Console.WriteLine("O valor da Variável é {0}", variavelTeste);
-            Console.WriteLine("O valor da Variável é {0}", TesteInteger);
-            Console.WriteLine("O valor da Variável é {0}", TesteBool);
-            Console.WriteLine("O valor da Variável é {0}", TesteString);
+            Console.WriteLine("Total é; {0}", total);
             Console.ReadLine();
-
         }
     }
 }
