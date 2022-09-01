@@ -4,6 +4,7 @@ namespace HelloWorld
 {
     class Program
     /* {
+
          static void Main(string[] args)
 
          {
@@ -87,7 +88,7 @@ namespace HelloWorld
             Console.WriteLine("Maior igual a : {0}", val1 >= val2);
             Console.WriteLine("Menor igual a: {0}", val1 <= val2);
         }
-    }*/
+    }
     {
         static void Main(string[] args)
         {
@@ -104,6 +105,18 @@ namespace HelloWorld
             else
             {
                 Console.WriteLine("Não é igual");
+            }
+        }
+    }*/
+    {
+        static void Main(string[] args)
+        {
+            //for - para cada...
+            //Repetindo
+
+            for (int i = 0; i < 100; i++)
+            {
+                Console.WriteLine(i);
             }
         }
     }
