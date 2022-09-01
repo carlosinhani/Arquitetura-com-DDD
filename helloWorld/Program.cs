@@ -63,7 +63,7 @@ namespace HelloWorld
 
 
          }
-     }*/
+     }
 
     {
         static void Main(string[] args)
@@ -87,6 +87,24 @@ namespace HelloWorld
             Console.WriteLine("Maior igual a : {0}", val1 >= val2);
             Console.WriteLine("Menor igual a: {0}", val1 <= val2);
         }
-    }
+    }*/
+    {
+        static void Main(string[] args)
+        {
+            //IF - SE
+            //ELSE - SENÃO
 
+            int val1 = 10;
+            int val2 = 5;
+
+            if (val1 == val2)
+            {
+                Console.WriteLine("Igual");
+            }
+            else
+            {
+                Console.WriteLine("Não é igual");
+            }
+        }
+    }
 }
