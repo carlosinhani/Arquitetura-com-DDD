@@ -6,22 +6,43 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            //While (Enquanto)
+            //switch...case (caso)
 
-            int x = 0;
-            while (x < 10)
+            //   int x = 1;
+
+            //   switch (x)
+            //   {
+            //     case 1:
+            //     Console.WriteLine("Igual a 1");
+            //     break;
+            //     case 2:
+            //     Console.WriteLine("Igual a 2");
+            //     break;
+            //     case 3:
+            //     Console.WriteLine("Igual a 3");
+            //     break;
+
+            //     default:
+            //     Console.WriteLine("Default");
+            //     break;
+            //   }
+
+            switch (DateTime.Now.DayOfWeek)
             {
-                x++;
-
-                if (x % 2 == 0)
-                    continue;
-
-                if (x == 7)
+                case DayOfWeek.Sunday:
+                case DayOfWeek.Saturday:
+                    Console.WriteLine("Final de Semana");
                     break;
-
-                Console.WriteLine(x);
+                case DayOfWeek.Monday:
+                    Console.WriteLine("Primeiro Dia da Semana de trabalho");
+                    break;
+                case DayOfWeek.Friday:
+                    Console.WriteLine("Ultimo Dia da Semana de trabalho");
+                    break;
+                default:
+                    Console.WriteLine("Meio da Semana");
+                    break;
             }
-            Console.WriteLine("Saiu do While");
         }
     }
 }
